@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    image: go-web-server:0.0.1-SNAPSHOT
+    ports:
+      - "80:80"
+    environment:
+      - USER_NAME=FOOBAR
